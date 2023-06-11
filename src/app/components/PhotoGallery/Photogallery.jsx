@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Modal from "../Modal/Modal";
-import "./styles/styles.scss";
+import "./styles/styles.css";
 
 const PhotoGallery = ({ images, onOpenModal, onCloseModal }) => {
   const [modalOpen, setModalOpen] = useState(false);

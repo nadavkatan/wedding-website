@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import TriangleDown from "../../assets/icons/triangle-down.svg";
 import TriangleUp from "../../assets/icons/triangle-up.svg";
-import "./styles/styles.scss";
+import "./styles/styles.css";
 
 export default function ShuttleCard({ shuttle }) {
   // const direction = lang === "heb" ? "rtl" : "ltr";

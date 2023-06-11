@@ -1,5 +1,5 @@
 import React, { useEffect, useContext, useState } from "react";
-import "./styles/styles.scss";
+import "./styles/styles.css";
 import { faq } from "../../data/data";
 import InfoCard from "../../components/InfoCard/InfoCard";
 import { LanguageContext } from "../../context/LanguageContext";

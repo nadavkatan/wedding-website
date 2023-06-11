@@ -3,7 +3,7 @@ import Drawer from "../../components/Drawer/Drawer";
 import useMediaQuery from "../../hooks/useMediaQuery";
 import ShuttleCard from "../../components/ShuttleCard/ShuttleCard";
 import { shuttlesList } from "../../data/data";
-import "./styles/styles.scss";
+import "./styles/styles.css";
 import InfoBgRotated from "../../assets/images/info-bg-rotated.png";
 
 export default function Shuttles() {

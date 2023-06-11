@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import "./styles/styles.scss";
+import "./styles/styles.css";
 import TriangleDown from "../../assets/icons/triangle-down.svg";
 import TriangleUp from "../../assets/icons/triangle-up.svg";
 import { ReactComponent as Icon } from "../../assets/icons/triangle-down.svg";

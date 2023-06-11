@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ScheduleMobile from "../../assets/images/schedule-mobile.png";
-import "./styles/styles.scss";
+import "./styles/styles.css";
 
 import useMediaQuery from "../../hooks/useMediaQuery";
 import Drawer from "../../components/Drawer/Drawer";

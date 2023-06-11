@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Hamburger from "../Hamburger/Hamburger";
-import "./styles/styles.scss";
+import "./styles/styles.css";
 import { navbarItems } from "../../data/data";
 import NavbarItem from "../NavbarItem/NavbarItem";
 

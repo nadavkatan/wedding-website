@@ -2,7 +2,7 @@ import React from "react";
 import { useRef, useState, useEffect } from "react";
 import "@tomtom-international/web-sdk-maps/dist/maps.css";
 import tt from "@tomtom-international/web-sdk-maps";
-import "./styles/styles.scss";
+import "./styles/styles.css";
 import { selinaImages } from "../../data/data";
 import PhotoGallery from "../../components/PhotoGallery/Photogallery";
 import useScrollNavigation from "../../hooks/useScrollNavigation";

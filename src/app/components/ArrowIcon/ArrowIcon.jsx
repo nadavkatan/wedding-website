@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/styles.scss";
+import "./styles/styles.css";
 
 export default function ArrowIcon({ direction }) {
   return (

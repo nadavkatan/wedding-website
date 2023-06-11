@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
 import { navbarItems } from "../../data/data";
 import NavbarItem from "../NavbarItem/NavbarItem";
-import "./styles/styles.scss";
+import "./styles/styles.css";
 import { Link } from "react-router-dom";
 import weddingLogo from "../../assets/images/wedding-logo.jpeg";
 

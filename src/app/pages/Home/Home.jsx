@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./styles/styles.scss";
+import "./styles/styles.css";
 import weddingBg from "../../assets/images/wedding-bg.svg";
 import rotatedBg from "../../assets/images/wedding-bg-rotated2.png";
 import useMediaQuery from "../../hooks/useMediaQuery";

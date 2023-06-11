@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./styles/styles.scss";
+import "./styles/styles.css";
 import ArrowIcon from "../ArrowIcon/ArrowIcon";
 
 const Modal = ({ isOpen, onClose, images, selectedImageIndex }) => {
