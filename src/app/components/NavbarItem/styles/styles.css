@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+.navbar-item {
+  padding: 10px;
+  font-family: 'Aboreto', cursive;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: #c4a365;
+  font-weight: bold;
+}

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+.home {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home .home-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #c4a365;
+}
+
+.home .home-content h1 {
+  font-size: 7em;
+  font-weight: 200;
+  margin-top: -10px;
+  font-family: 'Allura', cursive;
+  text-align: center;
+}
+
+.home .home-content .date {
+  font-size: 2em;
+  margin-top: -30px;
+  font-family: 'Aboreto', cursive;
+  font-weight: 200;
+}
+
+.fade-in {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-in;
+  transition: opacity 0.5s ease-in;
+}
+
+.fade-in.active {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .home .home-content .home-mobile-heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    height: 26em;
+  }
+  .home .home-content .home-mobile-heading h1 {
+    font-size: 5em;
+    margin: 0;
+  }
+}

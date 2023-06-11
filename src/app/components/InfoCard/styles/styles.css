@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Diphylleia&display=swap");
+.card-container {
+  padding: 20px;
+}
+
+.card-container .question {
+  font-family: 'Aboreto', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.card-container .question h2 {
+  line-height: 35px;
+  font-size: 20px;
+}
+
+.card-container .question .toggle-arrow {
+  cursor: pointer;
+}
+
+.card-container .question .toggle-arrow .triangle-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.card-container .answer {
+  overflow: hidden;
+  -webkit-transition: height 0.3s ease;
+  transition: height 0.3s ease;
+  font-family: 'Diphylleia', serif;
+}
+
+.card-container .answer p {
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.toggle-arrow.answer-open {
+  /* Styles for the arrow when the answer is open */
+  /* ... */
+}
