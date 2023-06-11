@@ -6,7 +6,7 @@ import Schedule from "./app/pages/Schedule/Schedule";
 import Location from "./app/pages/Location/Location";
 import Info from "./app/pages/Info/Info";
 import Shuttles from "./app/pages/Shuttles/Shuttles";
-import "./App.scss";
+import "./App.css";
 import { LanguageProvider } from "./app/context/LanguageContext";
 
 const App = () => {
