@@ -1,0 +1,28 @@
+.shuttle-card-container{
+    margin-bottom: 5em;
+    .departure-time{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .toggle-arrow {
+            cursor: pointer;
+            .triangle-icon{
+                height: 20px;
+                width: 20px;
+            }
+          }
+    }
+
+      .guets-list{
+        overflow: hidden;
+        transition: height 0.3s ease;
+        font-family: 'Diphylleia', serif;
+        ul{
+            li{
+                line-height: 40px;
+                font-size:20px;
+            }
+        }
+
+    }
+}

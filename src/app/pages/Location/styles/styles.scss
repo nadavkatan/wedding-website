@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+.location-page-container{
+    overflow: hidden;
+    // background-color: #F7E6C4;
+    padding-top:30px;
+
+    position: relative;
+    height: 100vh; /* Adjust as needed */
+    overflow: auto;
+    background-size: cover;
+    // background-position: center;
+    background-repeat: no-repeat;
+    header{
+        padding:10px 20px;
+        h1{
+            font-family: 'Allura', cursive;
+            font-size: 5em;
+            text-align: center;
+            color: #c4a365;
+            user-select: none;
+        }
+    }
+    .info{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        flex-wrap: wrap;
+        font-family: 'Diphylleia', serif;
+        .selina-intro{
+            flex: 1 0 50%;
+            p{
+                text-align: center;
+                line-height: 40px;
+                font-size: 20px;
+            }
+        }
+        .map-container{
+            flex: 1 0 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .popup{
+                height: 16em;
+                width:20em;
+                overflow: hidden;
+                img{
+                    width: 90%;
+                    height: 60%;
+                    object-fit: cover;
+                    border-radius: 3px;
+                }
+                a{
+                    text-decoration: none;
+                    outline: none;
+                }
+            }
+            .map{
+                height: 40em;
+                width: 40em;
+            }
+        }
+
+        .map-container.hide-controlls {
+            .map{
+                .mapboxgl-control-container{
+                    display: none;
+                }
+            }
+        }
+        
+    }
+    
+    .photo-gallery{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding: 20px;
+        flex-wrap: wrap;
+        .img-container{
+            height: 16em;
+            width: 16em;
+            overflow: hidden;
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+                border-radius: 8px;
+                cursor: pointer;
+    
+            }
+        }
+    }
+}
+
+
+.mapboxgl-ctrl.mapboxgl-ctrl-attrib{
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .location-page-container{
+        padding:0;
+        .info{
+            padding: 0 20px 20px 20px;
+            margin-top: -50px;
+            .map-container {
+                .map{
+                    width: 32em;
+                    height: 32em;
+                }
+            }
+        }
+    }
+
+
+}
