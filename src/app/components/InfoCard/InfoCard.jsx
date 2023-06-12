@@ -46,6 +46,17 @@ export default function InfoCard({ info, lang, handleOpenAnswer }) {
             </Link>
           ) : null}{" "}
           {info.extraText.length ? info.extraText : null}
+          {info.redirect2?.length ? (
+            <>
+              {" "}
+              <Link
+                to={info.redirect2}
+                target={info.id === 3 || info.id === 2 ? "_blank" : null}
+              >
+                {info.redirectText2}
+              </Link>
+            </>
+          ) : null}
         </p>
       </div>
     </div>

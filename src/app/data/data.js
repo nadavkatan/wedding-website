@@ -121,8 +121,11 @@ const faq = {
         "Since the wedding resort is rather distant and not easily accesible, we organised shuttles from Atheness airport to the resort and back. There are two shuttles to the resort on July 13th: at 09:30 and 12:30. On July 15th, the check-out is at 11:00, and the shuttle back to the airport will leave at 11:30.",
       redirect: "/shuttles",
       redirectText: "Click here to check to which shuttle you are assigned!",
+      // redirect2: "https://wa.me/32456307185",
+      redirect2: "https://wa.me/32456307185",
+      redirectText2: "text Nadav ASAP.",
       extraText:
-        "If your name is not on the list and you want to use the shuttle service, please text either Shira or Nadav ASAP.",
+        "If your name is not on the list and you want to use the shuttle service, please",
     },
     {
       id: 3,
