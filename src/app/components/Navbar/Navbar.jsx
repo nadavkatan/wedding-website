@@ -1,10 +1,9 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
 import { navbarItems } from "../../data/data";
 import NavbarItem from "../NavbarItem/NavbarItem";
 import "./styles/styles.css";
 import { Link } from "react-router-dom";
-import weddingLogo from "../../assets/images/wedding-logo.jpeg";
 
 export default function Navbar() {
   const { language, setLanguage } = useContext(LanguageContext);

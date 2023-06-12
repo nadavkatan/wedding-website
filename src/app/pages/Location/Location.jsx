@@ -5,12 +5,10 @@ import tt from "@tomtom-international/web-sdk-maps";
 import "./styles/styles.css";
 import { selinaImages } from "../../data/data";
 import PhotoGallery from "../../components/PhotoGallery/Photogallery";
-import useScrollNavigation from "../../hooks/useScrollNavigation";
 import useMediaQuery from "../../hooks/useMediaQuery";
 import Drawer from "../../components/Drawer/Drawer";
 import locationBgRotated from "../../assets/images/location-bg-rotated.png";
 import locationBg from "../../assets/images/location-bg.png";
-import WeddingBg from "../../assets/images/wedding-bg.svg";
 
 export default function Location() {
   const mapElement = useRef();

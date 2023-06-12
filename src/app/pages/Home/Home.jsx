@@ -3,9 +3,8 @@ import "./styles/styles.css";
 import weddingBg from "../../assets/images/wedding-bg.svg";
 import rotatedBg from "../../assets/images/wedding-bg-rotated2.png";
 import useMediaQuery from "../../hooks/useMediaQuery";
-import useScrollNavigation from "../../hooks/useScrollNavigation";
-import Hamburger from "../../components/Hamburger/Hamburger";
 import Drawer from "../../components/Drawer/Drawer";
+import ShiraNadav from "../../assets/images/shira-nadav.png";
 
 export default function Home() {
   const isMobile = useMediaQuery("(max-width: 768px)");
@@ -41,6 +40,22 @@ export default function Home() {
           <h1>Shira & Nadav</h1>
         )}
         <h2 className="date">14.07.2023</h2>
+      </section>
+      <section className="home-greeting-container">
+        {/* <h1 className="title">We are getting married!</h1> */}
+        <p className="greeting">
+          We are delighted to have you as a guest at our special day, and we
+          can't wait to welcome you in Evia, Greece, where we will celebrate our
+          love.
+        </p>
+        <p className="greeting">
+          In this website you will find practical information that will help you
+          to plan your trip. Do not hesitate to reach out to us for any
+          questions that may come up!
+        </p>
+        <div className="img-container">
+          <img src={ShiraNadav} alt="shira and nadav" />
+        </div>
       </section>
     </div>
   );

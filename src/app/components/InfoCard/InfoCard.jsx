@@ -1,9 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import "./styles/styles.css";
 import TriangleDown from "../../assets/icons/triangle-down.svg";
 import TriangleUp from "../../assets/icons/triangle-up.svg";
-import { ReactComponent as Icon } from "../../assets/icons/triangle-down.svg";
 
 export default function InfoCard({ info, lang, handleOpenAnswer }) {
   const direction = lang === "heb" ? "rtl" : "ltr";
