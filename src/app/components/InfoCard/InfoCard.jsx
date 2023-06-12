@@ -41,7 +41,9 @@ export default function InfoCard({ info, lang, handleOpenAnswer }) {
         <p style={{ direction }}>
           {info.answer}{" "}
           {info.redirect.length ? (
-            <Link to={info.redirect}>{info.redirectText}</Link>
+            <Link to={info.redirect} target={info.id === 3 ? "_blank" : null}>
+              {info.redirectText}
+            </Link>
           ) : null}{" "}
           {info.extraText.length ? info.extraText : null}
         </p>

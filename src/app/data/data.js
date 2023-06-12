@@ -129,7 +129,10 @@ const faq = {
       question: "Renting a car after the wedding",
       answer:
         "If you plan on renting a car after the wedding, you have two options: either taking the shuttle back to Atheness airport and renting at one of the agencies there, or renting from one of the car rental agencies at Chalcis. The shuttle back to Athenes airport will drop you off in Chalcis. The following car agency offers the possibility to rent a car in Chalcis and return it in Atheness:",
-      redirect: "",
+      redirect:
+        "https://www.autounion.gr/?gclid=CjwKCAjwhJukBhBPEiwAniIcNaAQ4kONRyZdBd0EK4VywuRfetCWB4CJ23gK65a0MSZuybWDM_5f5hoCnCYQAvD_BwE",
+      redirectText:
+        "https://www.autounion.gr/?gclid=CjwKCAjwhJukBhBPEiwAniIcNaAQ4kONRyZdBd0EK4VywuRfetCWB4CJ23gK65a0MSZuybWDM_5f5hoCnCYQAvD_BwE",
       extraText: "",
     },
     {
