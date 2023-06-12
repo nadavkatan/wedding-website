@@ -26,12 +26,9 @@ export default function ShuttleCard({ shuttle }) {
   return (
     <div className="shuttle-card-container">
       <h2>{shuttle.direction}</h2>
-      <div className="departure-time">
+      <div className="departure-time" onClick={handleToggleAnswer}>
         <h3>{shuttle.departureTime}</h3>
-        <div
-          className={`toggle-arrow ${isListOpen ? "open" : ""}`}
-          onClick={handleToggleAnswer}
-        >
+        <div className={`toggle-arrow ${isListOpen ? "open" : ""}`}>
           <img
             className="triangle-icon"
             src={isListOpen ? TriangleUp : TriangleDown}
@@ -39,7 +36,6 @@ export default function ShuttleCard({ shuttle }) {
           />
         </div>
       </div>
-
       <div className="guets-list" ref={listRef} style={{ height: getHeight() }}>
         <ul>
           {shuttle.guests.map((guest) => {

@@ -27,12 +27,9 @@ export default function InfoCard({ info, lang, handleOpenAnswer }) {
 
   return (
     <div className="card-container">
-      <div className="question">
+      <div className="question" onClick={handleToggleAnswer}>
         <h2 style={{ direction }}>{info.question}</h2>
-        <div
-          className={`toggle-arrow ${isAnswerOpen ? "open" : ""}`}
-          onClick={handleToggleAnswer}
-        >
+        <div className={`toggle-arrow ${isAnswerOpen ? "open" : ""}`}>
           <img
             className="triangle-icon"
             src={isAnswerOpen ? TriangleUp : TriangleDown}
