@@ -121,7 +121,6 @@ const faq = {
         "Since the wedding resort is rather distant and not easily accesible, we organised shuttles from Atheness airport to the resort and back. There are two shuttles to the resort on July 13th: at 09:30 and 12:30. On July 15th, the check-out is at 11:00, and the shuttle back to the airport will leave at 11:30.",
       redirect: "/shuttles",
       redirectText: "Click here to check to which shuttle you are assigned!",
-      // redirect2: "https://wa.me/32456307185",
       redirect2: "https://wa.me/32456307185",
       redirectText2: "text Nadav ASAP.",
       extraText:
@@ -158,7 +157,7 @@ const faq = {
       id: 1,
       question: "הארכת השהייה במלון",
       answer:
-        "אורחי החתונה יכולים להזמין לילות נוספים במלון ךפני ואחרי החתונה. בית המלון מציע לאורחי החתונה 20 אחוז הנחה על לילות אלו. להזמנת חדרים שלחו אימייל ל reservations.greece@selina.com.",
+        "המלון כולו סגור לחתונה מה 13 עד 15 ביולי. אורחי החתונה יכולים להזמין לילות נוספים במלון לפני ואחרי החתונה. בית המלון מציע לאורחי החתונה 20 אחוז הנחה על ה׳תעריף הגמיש׳ ללילות אלו. להזמנת חדרים, בדקו איתנו את מספר בחדר שלכם ושלחו אימייל ל reservations.greece@selina.com. ציינו באימייל שאתם אורחים של החתונה של שירה ונדב, ואת מספר ההזמנה 5365092.",
       redirect: "",
       extraText: "",
     },
@@ -166,20 +165,33 @@ const faq = {
       id: 2,
       question: "הגעה וחזרה למלון",
       answer:
-        "ב13.7, יש שתי הסעות משדה התעופה באתונה למלון באי אביה. ההסעה הראשונה יוצאת בשעה 09:30, והשנייה בשעה 12:30. ב15.7, הצ׳ק אאוט מהמלון הוא השבעה 11:00, וההסעה חזרה לשדה התעופה תצא בשעה 11:30.",
-      redirect: "",
-      extraText: "",
+        "ב13.7, יש שתי הסעות משדה התעופה באתונה למלון באי אביה. ההסעה הראשונה יוצאת בשעה 09:30, והשנייה בשעה 12:30. ב15.7, הצ׳ק אאוט מהמלון בשעה 11:00, וההסעה חזרה לשדה התעופה תצא בשעה 11:30.",
+      redirect: "/shuttles",
+      redirectText: "לחצו כאן על מנת לראות על איזה הסעה את רשומים.",
+      redirect2: "https://wa.me/32456307185",
+      redirectText2: "שלחו הודעה לנדב בהקדם האפשרי.",
+      extraText: "אם אתם לא מופיעים ברשימה ומעוניינים להצטרף להסעה,",
     },
     {
       id: 3,
       question: "השכרת רכב אחרי החתונה",
       answer:
-        "לאורחים המעוניינים להשכיר רכב אחרי החתונה יש שתי אפשרויות: לנסוע עם ההסעה ב15.7 חזרה לשדה התעופה באתונה ולהשכיר מאחת הסוכנויות שם, או להשכיר מאחת הסוכנויות בעיר Chalcis. תוכלו להגיע לChalcis  עם ההסעה חזרה לאתונה.",
-      redirect: "",
+        "לאורחים המעוניינים להשכיר רכב אחרי החתונה יש שתי אפשרויות: לנסוע עם ההסעה ב15.7 חזרה לשדה התעופה באתונה ולהשכיר מאחת הסוכנויות שם, או להשכיר מאחת הסוכנויות בעיר Chalcis. תוכלו להגיע לChalcis  עם ההסעה חזרה לאתונה. סוכנות רכב בקאלקיס ממנה ניתן לשכור רכב והחזיר בשדה התעופה באתונה:",
+      redirect:
+        "https://www.autounion.gr/?gclid=CjwKCAjwhJukBhBPEiwAniIcNaAQ4kONRyZdBd0EK4VywuRfetCWB4CJ23gK65a0MSZuybWDM_5f5hoCnCYQAvD_BwE",
+      redirectText:
+        "https://www.autounion.gr/?gclid=CjwKCAjwhJukBhBPEiwAniIcNaAQ4kONRyZdBd0EK4VywuRfetCWB4CJ23gK65a0MSZuybWDM_5f5hoCnCYQAvD_BwE",
       extraText: "",
     },
     {
       id: 4,
+      question: "קוד לבוש",
+      answer: "תרגישו חופשי ללבוש מה שבא לכם.",
+      redirect: "",
+      extraText: "",
+    },
+    {
+      id: 5,
       question:
         "אנחנו כל כך שמחים שתבואו לחגוג איתנו! אנחנו זמינים לכל שאלה או בקשה:",
       answer: "שירה: 0032456307185, נדב: 0032456307185.",
@@ -244,6 +256,7 @@ const shuttlesList = [
       "Josefien De Waele",
       "Inbar Cohen",
       "Didier Serweytens",
+      "Ido Zilberman",
     ],
   },
   {
@@ -274,6 +287,7 @@ const shuttlesList = [
       "Sara Uni",
       "Shira Schwartz",
       "Alma Schwartz",
+      "Ido Zilberman",
     ],
   },
 ];

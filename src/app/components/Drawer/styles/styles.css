@@ -68,3 +68,14 @@
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
+
+.languages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  cursor: pointer;
+  -webkit-transform: translateY(-19px);
+          transform: translateY(-19px);
+}

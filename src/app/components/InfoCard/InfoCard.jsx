@@ -27,7 +27,11 @@ export default function InfoCard({ info, lang, handleOpenAnswer }) {
 
   return (
     <div className="card-container">
-      <div className="question" onClick={handleToggleAnswer}>
+      <div
+        className="question"
+        onClick={handleToggleAnswer}
+        style={{ flexDirection: lang === "heb" ? "row-reverse" : "row" }}
+      >
         <h2 style={{ direction }}>{info.question}</h2>
         <div className={`toggle-arrow ${isAnswerOpen ? "open" : ""}`}>
           <img
