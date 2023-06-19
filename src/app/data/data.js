@@ -1,30 +1,59 @@
-const navbarItems = [
-  {
-    id: 1,
-    name: "HOME",
-    route: "/",
-  },
-  {
-    id: 2,
-    name: "LOCATION",
-    route: "/location",
-  },
-  {
-    id: 3,
-    name: "SCHEDULE",
-    route: "/schedule",
-  },
-  {
-    id: 4,
-    name: "INFORMATION",
-    route: "/info",
-  },
-  {
-    id: 5,
-    name: "SHUTTLE LIST",
-    route: "/shuttles",
-  },
-];
+const navbarItems = {
+  heb: [
+    {
+      id: 1,
+      name: "דף הבית",
+      route: "/",
+    },
+    {
+      id: 2,
+      name: "המלון",
+      route: "/location",
+    },
+    {
+      id: 3,
+      name: "לוח זמנים",
+      route: "/schedule",
+    },
+    {
+      id: 4,
+      name: "מידע שימושי",
+      route: "/info",
+    },
+    {
+      id: 5,
+      name: "הסעות",
+      route: "/shuttles",
+    },
+  ],
+  en: [
+    {
+      id: 1,
+      name: "HOME",
+      route: "/",
+    },
+    {
+      id: 2,
+      name: "LOCATION",
+      route: "/location",
+    },
+    {
+      id: 3,
+      name: "SCHEDULE",
+      route: "/schedule",
+    },
+    {
+      id: 4,
+      name: "INFORMATION",
+      route: "/info",
+    },
+    {
+      id: 5,
+      name: "SHUTTLE LIST",
+      route: "/shuttles",
+    },
+  ],
+};
 
 const selinaImages = [
   {

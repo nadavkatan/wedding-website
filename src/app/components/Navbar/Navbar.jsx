@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
 import { navbarItems } from "../../data/data";
 import NavbarItem from "../NavbarItem/NavbarItem";
@@ -12,12 +12,19 @@ export default function Navbar() {
     setLanguage(newLanguage);
   };
 
+  useEffect(() => {
+    console.log("language: ", language);
+    console.log("navbarItems: ", navbarItems[language]);
+  }, []);
+
   return (
     <div className="navbar-wrapper">
       <div className="navbar-items-container">
-        {navbarItems.map((navbarItem) => {
-          return <NavbarItem key={navbarItem.id} item={navbarItem} />;
-        })}
+        {language
+          ? navbarItems[language].map((navbarItem) => {
+              return <NavbarItem key={navbarItem.id} item={navbarItem} />;
+            })
+          : null}
       </div>
       <div className="navbar-logo">
         <div className="languages">

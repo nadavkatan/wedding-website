@@ -36,9 +36,11 @@ const Drawer = () => {
           </p>
         </div>
         <div className="navbar-items">
-          {navbarItems.map((navbarItem) => {
-            return <NavbarItem key={navbarItem.id} item={navbarItem} />;
-          })}
+          {language
+            ? navbarItems[language].map((navbarItem) => {
+                return <NavbarItem key={navbarItem.id} item={navbarItem} />;
+              })
+            : null}
         </div>
       </div>
       <div onClick={toggleDrawer}>
