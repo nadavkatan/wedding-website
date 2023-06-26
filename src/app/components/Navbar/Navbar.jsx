@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
 import { navbarItems } from "../../data/data";
 import NavbarItem from "../NavbarItem/NavbarItem";
@@ -11,11 +11,6 @@ export default function Navbar() {
   const handleLanguageChange = (newLanguage) => {
     setLanguage(newLanguage);
   };
-
-  useEffect(() => {
-    console.log("language: ", language);
-    console.log("navbarItems: ", navbarItems[language]);
-  }, []);
 
   return (
     <div className="navbar-wrapper">
