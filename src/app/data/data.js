@@ -147,7 +147,7 @@ const faq = {
       id: 2,
       question: "Arriving at and departing from Selina Kaminos Evia",
       answer:
-        "Since the wedding resort is rather distant and not easily accesible, we organised shuttles from Atheness airport to the resort and back. There are two shuttles to the resort on July 13th: at 09:30 and 12:30. On July 15th, the check-out is at 11:00, and the shuttle back to the airport will leave at 11:30.",
+        "Since the wedding resort is rather distant and not easily accesible, we organised shuttles from Athens airport to the resort and back. There are two shuttles to the resort on July 13th: at 09:30 and 12:30. On July 15th, the check-out is at 11:00, and the shuttle back to the airport will leave at 11:30.",
       redirect: "/shuttles",
       redirectText: "Click here to check to which shuttle you are assigned!",
       redirect2: "https://wa.me/32456307185",
@@ -159,7 +159,7 @@ const faq = {
       id: 3,
       question: "Renting a car after the wedding",
       answer:
-        "If you plan on renting a car after the wedding, you have two options: either taking the shuttle back to Atheness airport and renting at one of the agencies there, or renting from one of the car rental agencies at Chalcis. The shuttle back to Athenes airport will drop you off in Chalcis. The following car agency offers the possibility to rent a car in Chalcis and return it in Atheness:",
+        "If you plan on renting a car after the wedding, you have two options: either taking the shuttle back to Athens airport and renting at one of the agencies there, or renting from one of the car rental agencies at Chalcis. The shuttle back to Athens airport will drop you off in Chalcis. The following car agency offers the possibility to rent a car in Chalcis and return it in Athens:",
       redirect:
         "https://www.autounion.gr/?gclid=CjwKCAjwhJukBhBPEiwAniIcNaAQ4kONRyZdBd0EK4VywuRfetCWB4CJ23gK65a0MSZuybWDM_5f5hoCnCYQAvD_BwE",
       redirectText:
@@ -233,7 +233,7 @@ const faq = {
 const shuttlesList = [
   {
     id: 1,
-    direction: "Atheness airport to Selina Kaminos Evia",
+    direction: "Athens airport to Selina Kaminos Evia",
     departureTime: "July 13th, 09:30",
     guests: [
       "Alexander Paz Goldman",
@@ -259,7 +259,7 @@ const shuttlesList = [
   },
   {
     id: 2,
-    direction: "Atheness airport to Selina Kaminos Evia",
+    direction: "Athens airport to Selina Kaminos Evia",
     departureTime: "July 13th, 12:30",
     guests: [
       "Naama Vaaknin",
@@ -286,11 +286,13 @@ const shuttlesList = [
       "Shahar Vin",
       "Niv Katan",
       "Liron Lindeman",
+      "Eylam Keshet",
+      "Marusha",
     ],
   },
   {
     id: 3,
-    direction: "Selina Kaminos Evia to Atheness airport",
+    direction: "Selina Kaminos Evia to Athens airport",
     departureTime: "July 15th, 11:30",
     guests: [
       "Diana Bucur",
