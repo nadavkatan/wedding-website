@@ -280,7 +280,6 @@ const shuttlesList = [
       "Bibi Shirazi",
       "Dafne Paris",
       "Lisa De Bruycker",
-      "Josefien De Waele",
       "Ido Zilberman",
       "Matan Alhadeff",
       "Shahar Vin",
@@ -293,7 +292,7 @@ const shuttlesList = [
   {
     id: 3,
     direction: "Selina Kaminos Evia to Athens airport",
-    departureTime: "July 15th, 11:30",
+    departureTime: "July 15th, 10:30",
     guests: [
       "Diana Bucur",
       "Shani Poms",
@@ -320,7 +319,6 @@ const shuttlesList = [
       "Bibi Shirazi",
       "Dafne Paris",
       "Lisa De Bruycker",
-      "Josefien De Waele",
       "Eylam Keshet",
       "Marusha",
       "Osnat Uni",
